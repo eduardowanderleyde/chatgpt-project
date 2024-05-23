@@ -1,8 +1,8 @@
-# frozen_string_literal: true
+source 'https://rubygems.org'
 
-source "https://rubygems.org"
-
-# gem "rails"
 gem 'sinatra'
-gem 'dotenv-rails'
-gem 'ruby-openai'
+gem 'pdf-reader'
+gem 'json'
+gem 'google_drive', '~> 3.0.7'
+gem 'google-api-client', '~> 0.53.0'
+gem 'faraday', '~> 1.10'
